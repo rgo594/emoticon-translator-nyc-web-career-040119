@@ -1,5 +1,5 @@
-require "yaml"
-require "pry"
+require "yaml", "pry"
+
 
 def load_library(path)
   get_meaning = {}
