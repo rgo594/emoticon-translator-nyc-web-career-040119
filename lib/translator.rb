@@ -1,8 +1,10 @@
 require "yaml"
 
 def load_library(path)
+  
   YAML.load_file(path)
-  path.each do |path|
+  path.each do |meaning, emoticon|
+    
 end
 
 def get_japanese_emoticon
