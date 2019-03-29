@@ -1,10 +1,12 @@
 require "yaml"
+require "pry"
 
 def load_library(path)
   get_meaning = {}
   get_emoticon = {}
   YAML.load_file(path)
   path.each do |meaning, emoticon|
+    binding.pry
     get_meaning << meaning
     get_emoticon << emoticon
   end
