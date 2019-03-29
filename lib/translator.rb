@@ -2,6 +2,7 @@ require "yaml"
 
 def load_library(path)
   YAML.load_file(path)
+  path.each do ||
 end
 
 def get_japanese_emoticon
