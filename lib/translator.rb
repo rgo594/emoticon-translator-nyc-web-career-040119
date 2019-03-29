@@ -8,6 +8,8 @@ def load_library(path)
     get_meaning << meaning
     get_emoticon << emoticon
   end
+  return get_meaning
+  return get_emoticon
 end
 
 def get_japanese_emoticon
